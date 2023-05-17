@@ -26,6 +26,15 @@
     },
     "winterProjectId": {
       "type": "string"
+    },
+    "chainId": {
+      "type": "enumeration",
+      "enum": [
+        "[polygon]: 0x89",
+        "[mumbai]: 0x13881"
+      ],
+      "default": "[polygon]: 0x89",
+      "required": true
     }
   }
 }
