@@ -18,10 +18,10 @@
     "ABI": {
       "type": "json"
     },
-    "eventName": {
+    "name": {
       "type": "string"
     },
-    "eventDescription": {
+    "description": {
       "type": "richtext"
     },
     "winterProjectId": {
@@ -35,6 +35,39 @@
       ],
       "default": "[polygon]: 0x89",
       "required": true
+    },
+    "startDate": {
+      "type": "datetime"
+    },
+    "lotteryStartDate": {
+      "type": "datetime"
+    },
+    "endDate": {
+      "type": "datetime"
+    },
+    "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "slug": {
+      "type": "string"
+    },
+    "collectionImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
