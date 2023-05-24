@@ -13,19 +13,23 @@
   "pluginOptions": {},
   "attributes": {
     "contractAddress": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "ABI": {
-      "type": "json"
+      "type": "json",
+      "required": true
     },
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
       "type": "richtext"
     },
     "winterProjectId": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "chainId": {
       "type": "enumeration",
@@ -39,7 +43,7 @@
     "startDate": {
       "type": "datetime"
     },
-    "lotteryStartDate": {
+    "giveawayStartDate": {
       "type": "datetime"
     },
     "endDate": {
@@ -57,17 +61,28 @@
       ]
     },
     "slug": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "collectionImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "excludedAddressesFromRewards": {
+      "type": "json",
+      "required": true
+    },
+    "amountOfTokensToGetReward": {
+      "type": "integer",
+      "required": true,
+      "default": 5
     }
   }
 }
