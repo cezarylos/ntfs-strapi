@@ -1,3 +1,5 @@
+const prefix = process.env.NODE_ENV === 'production' ? 'prod-' : '';
+
 module.exports = [
   'strapi::errors',
   /* Beginning of snippet */
@@ -13,14 +15,14 @@ module.exports = [
             'data:',
             'blob:',
             'dl.airtable.com',
-            'strapi-aws-s3-realbrain.s3.eu-north-1.amazonaws.com',
+            prefix + 'strapi-aws-s3-realbrain.s3.eu-north-1.amazonaws.com',
           ],
           'media-src': [
             "'self'",
             'data:',
             'blob:',
             'dl.airtable.com',
-            'strapi-aws-s3-realbrain.s3.eu-north-1.amazonaws.com',
+            prefix + 'strapi-aws-s3-realbrain.s3.eu-north-1.amazonaws.com',
           ],
           upgradeInsecureRequests: null,
         },
