@@ -83,6 +83,9 @@
       "type": "integer",
       "required": true,
       "default": 5
+    },
+    "eventLink": {
+      "type": "string"
     }
   }
 }
