@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_social_links",
+  "info": {
+    "singularName": "our-social-link",
+    "pluralName": "our-social-links",
+    "displayName": "our-social-link"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "socialLinks": {
+      "type": "json"
+    }
+  }
+}

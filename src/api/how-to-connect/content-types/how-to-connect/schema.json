@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "how_tos",
+  "collectionName": "how_to_connects",
   "info": {
-    "singularName": "how-to",
-    "pluralName": "how-tos",
-    "displayName": "how-to",
-    "description": ""
+    "singularName": "how-to-connect",
+    "pluralName": "how-to-connects",
+    "displayName": "how-to-connect"
   },
   "options": {
     "draftAndPublish": true

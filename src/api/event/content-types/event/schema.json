@@ -84,7 +84,10 @@
       "required": true,
       "default": 5
     },
-    "eventLink": {
+    "socialLinks": {
+      "type": "json"
+    },
+    "rewardTitle": {
       "type": "string"
     }
   }
