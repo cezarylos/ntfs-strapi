@@ -27,7 +27,7 @@
     "description": {
       "type": "richtext"
     },
-    "crossmintProjectId": {
+    "checkoutProjectId": {
       "type": "string",
       "required": true
     },
