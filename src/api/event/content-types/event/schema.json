@@ -31,15 +31,6 @@
       "type": "string",
       "required": true
     },
-    "chainId": {
-      "type": "enumeration",
-      "enum": [
-        "[polygon]: 0x89",
-        "[mumbai]: 0x13881"
-      ],
-      "default": "[polygon]: 0x89",
-      "required": true
-    },
     "startDate": {
       "type": "datetime"
     },
@@ -89,6 +80,13 @@
     },
     "rewardTitle": {
       "type": "string"
+    },
+    "chainId": {
+      "type": "enumeration",
+      "enum": [
+        "[polygon]: 0x137",
+        "[mumbai]: 0x13881"
+      ]
     }
   }
 }
