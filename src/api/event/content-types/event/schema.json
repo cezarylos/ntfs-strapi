@@ -84,7 +84,7 @@
     "chainId": {
       "type": "enumeration",
       "enum": [
-        "[polygon]: 137",
+        "[polygon]: 0x89",
         "[mumbai]: 0x13881"
       ]
     }
