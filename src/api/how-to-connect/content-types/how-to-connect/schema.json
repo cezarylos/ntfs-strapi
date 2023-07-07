@@ -4,7 +4,8 @@
   "info": {
     "singularName": "how-to-connect",
     "pluralName": "how-to-connects",
-    "displayName": "how-to-connect"
+    "displayName": "how-to-connect",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,9 @@
   "attributes": {
     "description": {
       "type": "richtext"
+    },
+    "videoSlug": {
+      "type": "string"
     }
   }
 }
