@@ -34,9 +34,6 @@
     "startDate": {
       "type": "datetime"
     },
-    "giveawayStartDate": {
-      "type": "datetime"
-    },
     "endDate": {
       "type": "datetime"
     },
@@ -87,6 +84,11 @@
         "[polygon]: 0x89",
         "[mumbai]: 0x13881"
       ]
+    },
+    "isCollab": {
+      "type": "boolean",
+      "required": true,
+      "default": false
     }
   }
 }
