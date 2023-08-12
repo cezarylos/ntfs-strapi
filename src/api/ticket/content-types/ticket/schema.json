@@ -39,6 +39,10 @@
     },
     "tokenIds": {
       "type": "json"
+    },
+    "isRewardCollected": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

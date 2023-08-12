@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "encrypt_keys",
+  "info": {
+    "singularName": "encrypt-key",
+    "pluralName": "encrypt-keys",
+    "displayName": "ENCRYPT_KEY"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "key": {
+      "type": "string"
+    }
+  }
+}
