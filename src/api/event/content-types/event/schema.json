@@ -93,6 +93,9 @@
     "isHidden": {
       "type": "boolean",
       "default": false
+    },
+    "checkoutCollectionId": {
+      "type": "string"
     }
   }
 }
