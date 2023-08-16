@@ -75,9 +75,6 @@
     "socialLinks": {
       "type": "json"
     },
-    "rewardTitle": {
-      "type": "string"
-    },
     "chainId": {
       "type": "enumeration",
       "enum": [
@@ -99,6 +96,9 @@
     },
     "maxTokensPerWallet": {
       "type": "integer"
+    },
+    "rewardTitle": {
+      "type": "richtext"
     }
   }
 }
