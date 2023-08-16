@@ -89,6 +89,10 @@
       "type": "boolean",
       "required": true,
       "default": false
+    },
+    "isHidden": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
