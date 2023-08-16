@@ -96,6 +96,9 @@
     },
     "checkoutCollectionId": {
       "type": "string"
+    },
+    "maxTokensPerWallet": {
+      "type": "integer"
     }
   }
 }
