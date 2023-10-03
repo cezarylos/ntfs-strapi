@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "poster_qr_code_links",
+  "info": {
+    "singularName": "poster-qr-code-link",
+    "pluralName": "poster-qr-code-links",
+    "displayName": "poster-qr-code-link"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    }
+  }
+}
