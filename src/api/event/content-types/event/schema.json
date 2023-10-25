@@ -99,6 +99,9 @@
     },
     "rewardTitle": {
       "type": "richtext"
+    },
+    "collectionOpenSeaUrl": {
+      "type": "string"
     }
   }
 }
